@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main()
+{
+	float m;
+	std::cout << "Enter any digit to convert cm to  km" << std::endl;
+	std::cin >> m;
+	float km = m / 1000;
+	std::cout << "The result is " << ' ' << km << " km" << std::endl;
+
+}
