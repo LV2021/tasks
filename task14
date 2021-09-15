@@ -1,0 +1,24 @@
+#include <iostream>
+
+int main()
+{
+
+    char hex[40];
+    int number, rem, i, tmp, j = 0;
+    
+    std::cout << "Enter any  decimal number" << std::endl;
+    std::cin >> number;
+    tmp = number;
+    while (tmp > 0) {
+        rem = tmp % 16;
+        if (rem < 10) 
+            hex[j++] = 48+rem;
+       else 
+        hex[j++] =55+rem;
+        tmp = tmp/16;
+    }
+    for (i = j - 1; i >= 0; i--) {
+        std::cout << "The converted number is " << ' ' << hex[i];
+    }
+    return 0;
+}
