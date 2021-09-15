@@ -1,0 +1,21 @@
+#include <iostream>
+
+int main()
+{
+	char ch1 = '*';
+	char ch2 = '=';
+	char ch3 = '|';
+	char ch4 = '-';
+	std::cout <<' '<< ' ' << ' ' << ' '<< ' '<<' '<< ' '<<ch1 << ch1 << ch1 << ch1 << std::endl;
+	std::cout << ' ' << ' ' << ' ' << ' '<< ' ' << ' '<< ch1 <<ch1<< ch1 << ch1<< ch1 << ch1 << std::endl;
+	std::cout<<' '<<' '<< ' ' << ' ' <<ch1<<ch1<<ch1<<ch1<<ch1<<ch1<<ch1<<ch1<<ch1<<ch1 <<"\t"<< std::endl;
+	std::cout <<' '<<' '<<ch1<<ch1<<ch1<<ch1<<ch1<<ch1<<ch1<<ch1<<ch1<<ch1<<ch1<<ch1<<ch1<<ch1 <<' '<< std::endl;
+	std::cout << ch1 << ch1 << ch1 << ch1<< ch1<<ch1<<ch1<<ch1 <<ch1<<ch1<<ch1 <<ch1<<ch1<<ch1
+	<<ch1<<ch1<<ch1 << ch1 << std::endl;
+	std::cout << ch3<<ch2 << "\t" <<ch2<< "\t"<<ch2<<ch3 << std::endl;
+	std::cout << ch3 <<ch2<< "\t" <<ch2<< "\t" <<ch2<< ch3 << std::endl;
+	std::cout << ch3 <<ch2<< "\t" <<ch2<< "\t" <<ch2<< ch3 << std::endl;
+	std::cout << ch3 << ch2<<"\t" <<ch2<< "\t" << ch2<<ch3 << std::endl;
+	std::cout << ch4 << ch4 << ch4 << ch4 << ch4 << ch4 << ch4 <<
+		ch4 << ch4 << ch4 << ch4 << ch4 << ch4 << ch4 << ch4 <<ch4<< ch4<<ch4;
+}
