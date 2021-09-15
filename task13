@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main()
+{
+	int num, p, i = 0, dig, numb, large = 0;
+	std::cout << "Enter any number" << std::endl;
+	std::cin >> numb;
+	p = numb;
+	while (numb > 0){
+		dig = numb % 10;
+		if (dig > large)
+			large = dig;
+		numb = numb / 10;
+	}
+	std::cout << "The largest digit is" << ' ' << large << std::endl;
+	std::cout << "The smallest digit is" << ' ' << dig << std::endl;
+}
